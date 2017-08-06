@@ -16,7 +16,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/conglv/LCNetwork'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'conglv@nal.vn' => 'conglv@nal.vn' }
+  s.author           = { 'Lê Công' => 'conglv@nal.vn' }
   s.source           = { :git => 'https://github.com/conglv/LCNetwork.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
