@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58B9F61B1F36FAD300CB0932 /* BaseTaskNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B9F6191F36FAD300CB0932 /* BaseTaskNetwork.h */; };
+		58B9F61C1F36FAD300CB0932 /* BaseTaskNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9F61A1F36FAD300CB0932 /* BaseTaskNetwork.m */; };
 		7AB13B037C2ED3B8F77286F1DED914AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		85BCF1FBAC13E590B0C3224323B6F52D /* LCNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBDDD04AB8D8E32D338CB48F486AE60 /* LCNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BFEF5BEC70E68B3E966A3147319B332 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 959396130B9D4366FA1970DF2FAEF40E /* ReplaceMe.m */; };
 		D0BFF3524FAFDE83B22A341B2B8A7F1C /* LCNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB3E526F8378E54910A5BC478A6053 /* LCNetwork-dummy.m */; };
 		D2C3890CAD012ACFA760ADE5544D3259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F93D415008485559EA58CC66E481D997 /* Pods-LCNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B9E60988CD1397D4102FDDC4BC97B /* Pods-LCNetwork_Tests-dummy.m */; };
@@ -30,20 +31,21 @@
 		08DB3E526F8378E54910A5BC478A6053 /* LCNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCNetwork-dummy.m"; sourceTree = "<group>"; };
 		198C95B43F672252DD4F025225A2D92D /* LCNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCNetwork-prefix.pch"; sourceTree = "<group>"; };
 		43FF580424FA13A055CBB79471CB112B /* Pods-LCNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5514B21C7859A3853D5E8E8BB902368B /* LCNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LCNetwork.modulemap; sourceTree = "<group>"; };
+		5514B21C7859A3853D5E8E8BB902368B /* LCNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LCNetwork.modulemap; sourceTree = "<group>"; };
+		58B9F6191F36FAD300CB0932 /* BaseTaskNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTaskNetwork.h; sourceTree = "<group>"; };
+		58B9F61A1F36FAD300CB0932 /* BaseTaskNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTaskNetwork.m; sourceTree = "<group>"; };
 		61148C7635258CC0A2F4E0BDFF66CA87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67F35E6CEABE1E97A1B3C9A6ABEE625F /* LCNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCNetwork.framework; path = LCNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A534999FE6E3A4852D316CA528873D1 /* Pods_LCNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCNetwork_Tests.framework; path = "Pods-LCNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F35E6CEABE1E97A1B3C9A6ABEE625F /* LCNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A534999FE6E3A4852D316CA528873D1 /* Pods_LCNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F7F8B63A4C23F7BBF9F9594CC4D77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3E8C065B4DC8C38F33B0BBB1C510D4 /* Pods-LCNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DA9A1DE61B1F7D029196E7C50A7CA1D /* Pods-LCNetwork_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCNetwork_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		845BD3A086A02B806B4FE2A53947272A /* LCNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCNetwork.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		944B9E60988CD1397D4102FDDC4BC97B /* Pods-LCNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
 		9548937CA2498AC5A96612341D08069F /* Pods-LCNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
-		959396130B9D4366FA1970DF2FAEF40E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		A7EE92F12ADD8B6C36676A741A5FEA5F /* Pods-LCNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LCNetwork_Tests.modulemap"; sourceTree = "<group>"; };
+		A7EE92F12ADD8B6C36676A741A5FEA5F /* Pods-LCNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LCNetwork_Tests.modulemap"; sourceTree = "<group>"; };
 		AE00E1F43E8E9068F41DA6A01C5BF449 /* Pods-LCNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C025A9EEB32867FC7A22658C29240CF0 /* Pods-LCNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEEB7E98ED58B2CF39F68BC007389920 /* Pods-LCNetwork_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCNetwork_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -108,9 +110,9 @@
 		89273AB36FE1E0991B16B0CB03BAA94B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				959396130B9D4366FA1970DF2FAEF40E /* ReplaceMe.m */,
+				58B9F6191F36FAD300CB0932 /* BaseTaskNetwork.h */,
+				58B9F61A1F36FAD300CB0932 /* BaseTaskNetwork.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -135,7 +137,6 @@
 			children = (
 				89273AB36FE1E0991B16B0CB03BAA94B /* Classes */,
 			);
-			name = LCNetwork;
 			path = LCNetwork;
 			sourceTree = "<group>";
 		};
@@ -190,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85BCF1FBAC13E590B0C3224323B6F52D /* LCNetwork-umbrella.h in Headers */,
+				58B9F61B1F36FAD300CB0932 /* BaseTaskNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B9F61C1F36FAD300CB0932 /* BaseTaskNetwork.m in Sources */,
 				D0BFF3524FAFDE83B22A341B2B8A7F1C /* LCNetwork-dummy.m in Sources */,
-				8BFEF5BEC70E68B3E966A3147319B332 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

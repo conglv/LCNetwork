@@ -22,7 +22,7 @@ pod "LCNetwork"
 
 ## Author
 
-conglv@nal.vn, conglv@nal.vn
+Lê Công
 
 ## License
 
