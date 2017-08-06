@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LCNetwork_Tests' do
+  pod 'LCNetwork', :path => '../'
+  
+  
+end
