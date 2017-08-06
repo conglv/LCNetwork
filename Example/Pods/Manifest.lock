@@ -1,0 +1,16 @@
+PODS:
+  - LCNetwork (0.1.0)
+
+DEPENDENCIES:
+  - LCNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  LCNetwork:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LCNetwork: 653ed4b681f0ac7266eb029f583963a30808a54f
+
+PODFILE CHECKSUM: c620a97a92d01ba5e3c95390af4c83e4c4338440
+
+COCOAPODS: 1.2.1

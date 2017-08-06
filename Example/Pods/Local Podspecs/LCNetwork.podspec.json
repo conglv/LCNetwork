@@ -1,0 +1,22 @@
+{
+  "name": "LCNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of LCNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/conglv@nal.vn/LCNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "conglv@nal.vn": "conglv@nal.vn"
+  },
+  "source": {
+    "git": "https://github.com/conglv@nal.vn/LCNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LCNetwork/Classes/**/*"
+}
